@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Chloe Wu | 個人資訊</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Font Awesome Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+        <!-- 自定義樣式 -->
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .skill-badge {
+                background-color: #e0f2fe;
+                border: 1px solid #b3e5fc;
+                color: #0277bd;
+            }
+            .profile-img {
+                aspect-ratio: 1;
+                object-fit: cover;
+            }
+            .hero-bg {
+                background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            }
+        </style>
+        <meta name="description" content="Chloe Wu 個人網站 - 個人介紹、作品集與工作照" />
+    </head>
+    <body class="text-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-semibold" href="./index.html">Chloe Wu</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">個人資訊</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./portfolio.html">作品集</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./photos.html">工作照</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 頁首區塊 -->
+        <header class="hero-bg">
+            <div class="container">
+                <div class="py-5">
+                    <h1 class="display-4 fw-bold text-primary mb-3">
+                        About Chloe Wu
+                    </h1>
+                    <p class="lead text-muted" style="font-weight: 400;">
+                        剪輯／攝影（4–5 年相關經驗）
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主要內容：個人資訊 -->
+        <main class="container">
+            <section class="py-5">
+                <div class="row g-5">
+                    <!-- 左側：照片 + 基本資料 -->
+                    <aside class="col-lg-5">
+                        <div class="card shadow">
+                            <img
+                                src="images/profile.png"
+                                alt="Chloe 的照片"
+                                class="card-img-top profile-img"
+                            />
+                            <div class="card-body">
+                                <h2 class="h4 text-primary fw-bold">吳昱瑭 Chloe</h2>
+                                <p class="text-muted mb-2">德明財經科技大學 · 多媒體設計</p>
+                                <p class="text-muted">1999/11/24</p>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- 右側：自我介紹與專長 -->
+                    <div class="col-lg-7">
+                        <h3 class="h2 fw-bold text-primary mb-4">您好，我是昱瑭！</h3>
+
+                        <ul class="list-unstyled fw-bold lh-lg">
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                熟悉拍攝現場運作，從操作相機、基礎打燈及布景皆有經驗。
+                                能獨立完成一條龍的剪輯流程，包括順剪、上字幕、字卡、調色，並使用Photoshop製作縮圖
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                喜歡和同事討論剪輯風格、節奏，藉由討論讓剪輯有不同變化，讓觀眾有不一樣的觀看體驗，不論任何影音型態都想嘗試！
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                剪輯主要使用Premiere Pro、剪映為輔。
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                拍攝使用Sony相機A7SIII、A74、穩定器DJI RS 3 Pro。
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                在快電商C2CBUY & CHECK2CHECK任職約4年，從大四擔任公司實習生，目前為影音組長，製作影片包括：藝人訪談、藝人業配、產品短影音、大型活動紀錄、形象影片  
+                            </li>
+                        </ul>
+
+                        <div class="row g-2 mt-4">
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-clapperboard text-primary me-2"></i>
+                                    <span class="small fw-bold">剪輯</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <img src="images/pr.png" alt="Premiere Pro" class="me-2" style="width: 20px; height: 20px;" loading="lazy" />
+                                    <span class="small fw-bold">Premiere Pro</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <i class="fas fa-video text-primary me-2"></i>
+                                    <span class="small fw-bold">拍攝</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <img src="images/ps.png" alt="Photoshop" class="me-2" style="width: 20px; height: 20px;" loading="lazy" />
+                                    <span class="small fw-bold">Photoshop</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <i class="fa-solid fa-lightbulb text-primary me-2"></i>
+                                    <span class="small fw-bold">基礎架燈+佈景</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="skill-badge rounded-3 p-3 d-flex align-items-center">
+                                    <img src="images/AI.png" alt="Illustrator" class="me-2" style="width: 20px; height: 20px;" loading="lazy" />
+                                    <span class="small fw-bold">Illustrator</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <a href="./portfolio.html" class="btn btn-primary btn-lg">
+                                查看作品集
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-top py-4 text-center text-muted">
+            Copyright © <span id="y"></span> Chloe Wu
+        </footer>
+
+        <!-- Scripts -->
+        <script>
+            // 動態年份
+            const y = document.getElementById('y');
+            if (y) y.textContent = new Date().getFullYear();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

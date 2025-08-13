@@ -1,0 +1,21 @@
+.navbar-nav {
+    font-weight: 600;
+}
+
+@media (min-width: 769px) {
+    .navbar-nav {
+        gap: 20px;
+    }
+}
+
+/* Nav active color override */
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show {
+    color: var(--bs-primary, #0d6efd) !important;
+}
+
+/* Optional: keep hover/focus of active consistent */
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:focus {
+    color: var(--bs-primary, #0d6efd) !important;
+}
